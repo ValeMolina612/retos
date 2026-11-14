@@ -1,0 +1,16 @@
+RETOS FLUTTER
+
+La app principal reúne los tres retos solicitados: películas (TMDB), memes de
+gatos (Cataas) y clima por ciudad (OpenWeatherMap).
+
+Desde esta carpeta ejecuta:
+    flutter pub get
+    flutter run --dart-define="TMDB_API_KEY=tu_clave_tmdb" --dart-define="OPENWEATHERMAP_API_KEY=tu_clave_openweathermap"
+
+Claves gratuitas:
+- TMDB: https://www.themoviedb.org/settings/api
+- OpenWeatherMap: https://openweathermap.org/api
+  (una clave nueva puede tardar en activarse)
+
+No pegues claves personales en el código fuente. El reto de gatos no necesita
+clave. La app Android ya incluye el permiso de Internet.
