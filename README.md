@@ -1,28 +1,37 @@
 # Retos Flutter
-Maria Valeria Molina Rosas
 
-Aplicación con tres experiencias pequeñas que consumen APIs:
-- **Películas:** tendencias y recomendaciones por estado de ánimo con TMDB.
-- **Memes de gatos:** imágenes de Cataas con texto y filtros personalizables.
-- **Clima:** consulta del clima por ciudad con OpenWeatherMap.
+Proyecto de Maria Valeria Molina Rosas.
 
+La aplicación junta varios retos pequeños:
 
-<img width="468" height="952" alt="image" src="https://github.com/user-attachments/assets/24d45f0c-f851-4eb7-949d-82a4e5474211" />
-<img width="467" height="982" alt="image" src="https://github.com/user-attachments/assets/d9df016b-be6d-46cf-8368-4b2e03646f95" />
+- Películas y recomendaciones.
+- Memes de gatos.
+- Consulta del clima.
+- Un reto de criptomonedas.
 
-## Evidencia de pruebas
+## Capturas de la aplicación
 
-La prueba de interfaz confirma que se muestran las experiencias principales. Resultado: **1 prueba aprobada**.
+![Pantalla de la aplicación](https://github.com/user-attachments/assets/24d45f0c-f851-4eb7-949d-82a4e5474211)
+
+![Segunda pantalla](https://github.com/user-attachments/assets/d9df016b-be6d-46cf-8368-4b2e03646f95)
+
+## Cómo ejecutarlo
 
 ```bash
 flutter pub get
+flutter run
+```
+
+## Pruebas
+
+La captura roja enseña el error de una función que todavía no estaba hecha. La captura verde muestra la prueba del proyecto ya terminada.
+
+```bash
 flutter test
 ```
 
-### Ciclo TDD: rojo a verde
-
-La captura roja reproduce de forma controlada el momento previo a implementar una regla; la verde corresponde a la suite final del repositorio.
-
-| 🔴 Prueba que solicita código faltante | 🟢 Implementación terminada |
+| Prueba con error | Prueba terminada |
 |---|---|
-| ![Fase roja](capturas/tdd_rojo_error.png) | ![Pruebas aprobadas en la terminal de VS Code](capturas/pruebas_vscode.png) |
+| ![Error real en la terminal de VS Code](capturas/tdd_rojo_error.png) | ![Prueba aprobada en la terminal de VS Code](capturas/pruebas_vscode.png) |
+
+Resultado final: **1 prueba aprobada**.
