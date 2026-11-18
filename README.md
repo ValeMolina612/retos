@@ -9,3 +9,14 @@ Aplicación con tres experiencias pequeñas que consumen APIs:
 
 <img width="468" height="952" alt="image" src="https://github.com/user-attachments/assets/24d45f0c-f851-4eb7-949d-82a4e5474211" />
 <img width="467" height="982" alt="image" src="https://github.com/user-attachments/assets/d9df016b-be6d-46cf-8368-4b2e03646f95" />
+
+## Evidencia de pruebas
+
+La prueba de interfaz confirma que se muestran las experiencias principales. Resultado: **1 prueba aprobada**.
+
+```bash
+flutter pub get
+flutter test
+```
+
+![Pruebas de Flutter](capturas/pruebas_flutter.png)
