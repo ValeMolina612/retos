@@ -1,16 +1,4 @@
-# Retos Flutter
 
-Proyecto que reúne varios ejercicios pequeños hechos con Flutter. Incluye un recomendador de películas, un generador de memes de gatos, una consulta del clima y un convertidor de criptomonedas.
-
-## Cómo ejecutar
-
-1. Instalar las dependencias con `flutter pub get`.
-2. Ejecutar las pruebas con `flutter test`.
-3. Abrir la aplicación con `flutter run`.
-
-## Trabajo con pruebas
-
-Cada fase tiene una evidencia roja y una evidencia verde. La captura roja muestra el error real cuando todavía falta completar el código. La captura verde muestra en Visual Studio Code el código que resuelve esa parte.
 
 ## Fase 1. Recomendador de películas
 
